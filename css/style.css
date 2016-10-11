@@ -91,6 +91,7 @@ main {
 footer {
 	background-color: #621a1a;
 	color: white;
+<<<<<<< HEAD
 }
 
 
@@ -167,3 +168,6 @@ a.link:hover, a.link:active, a.link:focus {
 	color: #7f3300;
 	text-decoration: underline;
 }
+=======
+}
+>>>>>>> master
