@@ -1,0 +1,43 @@
+body  {
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+figure {
+	max-width: 30%;
+	height: 33%;
+	display: inline-block;
+	margin: 14px;
+}
+
+figure img {
+	width: 100%;
+
+}
+
+figcaption {
+	padding: 1%;
+	border: solid black 2px;
+}
+
+#now_hiring {
+	text-align: center;
+	margin: 40px 0px 0 0;
+
+}
+
+#now_hiring h4 {
+	display: inline;
+	font-size: 2em;
+	margin-left: 2%;
+}
+
+h1.awards_headline {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+
+#mighty {
+	width: 20%;
+
+}
