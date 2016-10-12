@@ -2,6 +2,8 @@ body {
 	background-color: #f8bc64;
 	margin-top: 0;
 	margin-bottom: 0;
+	font-family: 'Mouse Memoirs', sans-serif;
+	letter-spacing: 0.15em;
 }
 
 #wrapper {
@@ -91,26 +93,39 @@ main {
 footer {
 	background-color: #621a1a;
 	color: white;
+	padding: 10px 10px;
+	text-align: center;
 }
 
 
 /* product page formatting*/
 
-.product-container { 
-	width: 33%;
-	border-color: black;
-	border: 2px;
-	border-style: solid;
+#product-container { 
 
+}
+
+/*  class .  */
+/*  id #  */
+
+
+
+
+/* about us page styling*/
+.about-us-images {
+	display: inline-block;
+}
+
+.truck-icon { 
+	margin-left: 8%;
  }
 
-
-
-
-
-
-
-
+.about-us-images img{ 
+	margin: 0 auto;
+}
+.about-us { 
+	margin: 10px;
+	padding:10px;
+}
 
 body  {
 	font-family: 'Mouse Memoirs', sans-serif;
@@ -125,7 +140,6 @@ figure {
 
 figure img {
 	width: 100%;
-
 }
 
 figcaption {
@@ -137,12 +151,28 @@ figcaption {
 	background-color: yellow;
 }
 
+
+.product {
+	width: 33%;
+	border-color: black;
+	border: 2px;
+	border-style: solid;
+	display: inline-block;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	height:400px;
+	/*display:flex;*/
+	/*flex-direction: row;
+	flex-wrap: wrap;*/
+	margin: 0 auto;
+}
+
 #now_hiring {
 	text-align: center;
 	margin: 40px 0px 0 0;
 	padding-top: 1%;
 	/*background-image: url("images/now-hiring-background.jpg");*/
 	/*background-color: yellow;*/
+
 
 }
 
