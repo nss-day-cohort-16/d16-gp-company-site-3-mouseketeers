@@ -2,6 +2,8 @@ body {
 	background-color: #f8bc64;
 	margin-top: 0;
 	margin-bottom: 0;
+	font-family: 'Mouse Memoirs', sans-serif;
+	letter-spacing: 0.15em;
 }
 
 #wrapper {
@@ -91,31 +93,70 @@ main {
 footer {
 	background-color: #621a1a;
 	color: white;
+	padding: 10px 10px;
+	text-align: center;
 }
 
 /* product page formatting*/
 
-.product-container { 
+#product-container { 
+
+}
+
+/*  class .  */
+/*  id #  */
+
+
+
+
+/* about us page styling*/
+.about-us-images {
+	display: inline-block;
+}
+
+.truck-icon { 
+	margin-left: 8%;
+ }
+
+.about-us-images img{ 
+	margin: 0 auto;
+}
+.about-us { 
+	margin: 10px;
+	padding:10px;
+
+ }
+
+ h2	{
+ 		font-size: 20px;
+ }
+
+/*img {
+	padding: 20px;
+	margin: 10 10;
+}*/
+
+.color-block {
+	background-color: #3B0E2B;
+	color: white;
+	font-size: 20px;
+	padding: 30px 30px;
+}
+
+
+.product {
 	width: 33%;
 	border-color: black;
 	border: 2px;
 	border-style: solid;
-
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	display: inline-block;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	height:400px;
+	/*display:flex;*/
+	/*flex-direction: row;
+	flex-wrap: wrap;*/
+	margin: 0 auto;
+}
 
 
 
