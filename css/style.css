@@ -33,7 +33,7 @@ nav {
 
 nav ul {
 	list-style-type: none;
-	margin: 0 25%;
+	margin: 0 30%;
 	padding: 0;
 	overflow: hidden;
 	width: 100%;
@@ -97,6 +97,7 @@ footer {
 	text-align: center;
 }
 
+
 /* product page formatting*/
 
 #product-container { 
@@ -124,23 +125,30 @@ footer {
 .about-us { 
 	margin: 10px;
 	padding:10px;
+}
 
- }
+body  {
+	font-family: 'Mouse Memoirs', sans-serif;
+}
 
- h2	{
- 		font-size: 20px;
- }
+figure {
+	max-width: 30%;
+	height: 33%;
+	display: inline-block;
+	margin: 14px;
+}
 
-/*img {
-	padding: 20px;
-	margin: 10 10;
-}*/
+figure img {
+	width: 100%;
+}
 
-.color-block {
-	background-color: #3B0E2B;
-	color: white;
-	font-size: 20px;
-	padding: 30px 30px;
+figcaption {
+	padding: 3%;
+	border-top: solid black 4px;
+	border-bottom: solid black 4px;
+	font-size: 1.75em;
+	text-indent: 15px;
+	background-color: yellow;
 }
 
 
@@ -158,8 +166,51 @@ footer {
 	margin: 0 auto;
 }
 
+#now_hiring {
+	text-align: center;
+	margin: 40px 0px 0 0;
+	padding-top: 1%;
+	/*background-image: url("images/now-hiring-background.jpg");*/
+	/*background-color: yellow;*/
 
 
+}
 
+#now_hiring h4 {
+	/*display: inline;*/
+	font-size: 3.5em;
+	margin-left: 2%;
+	vertical-align: middle;
+	margin-top: 70px;
+}
+
+h1#awards_headline {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	font-size: 3em;
+}
+
+#awards_p {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 8%;
+}
+
+#meet_team {
+	margin: 0 16% 0 19%;
+}
+
+#mighty {
+	width: 20%;
+	float: left;
+	padding-left: 30px;
+}
+
+a.link:hover, a.link:active, a.link:focus {
+	color: #7f3300;
+	text-decoration: underline;
+}
 
 
