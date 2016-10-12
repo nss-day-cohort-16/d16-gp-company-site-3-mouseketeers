@@ -94,6 +94,21 @@ footer {
 }
 
 
+/* product page formatting*/
+
+.product-container { 
+	width: 33%;
+	border-color: black;
+	border: 2px;
+	border-style: solid;
+
+ }
+
+
+
+
+
+
 
 
 
@@ -167,4 +182,5 @@ a.link:hover, a.link:active, a.link:focus {
 	color: #7f3300;
 	text-decoration: underline;
 }
+
 
